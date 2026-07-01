@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.login{
+    padding: 3%;
+    /* background:linear-gradient(to bottom, #ccffff 0%, #66ccff 100%);
+     */
+     background-color: rgba(211, 142, 161,0.4);
+}
+main{
+    display: flex;
+
+}
+#img{
+    width: 40%;
+    background-image: url(../assets/side_image.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 80vh;
+    border-radius: 10px 0 0 10px;
+}
+#img div{
+    padding: 10%;
+    color: white;
+}
+#img div p{
+    font-size: 1.4rem;
+}
+#details{
+    width: 55%;
+    padding: 4%;
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+    border-radius: 0 10px 10px 0;
+    background-color: white;
+}
+h1{
+    font-size: 4rem;
+}
+.heading p{
+    font-size: 1.4rem;
+    color: rgba(0,0,0,0.8);
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 0.1vh;
+}
+button,input{
+    width: 80%;
+    padding: 2%;
+    border-radius: 5px;
+    border-color: white;
+    box-shadow: 1px 2px 4px gray;
+}
+input[type="checkbox"]{
+    width: 15px;
+    height: 15px;
+}
+#loginBtn{
+    /* background-color: blue;
+     */
+     background-color: rgb(211, 142, 161);
+    color: white;
+}
+.or{
+padding-left: 35%;
+}
+form div{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+span{
+    /* color: blue; */
+    font-weight: bolder;
+    color: rgba(211, 142, 161,1);
+}

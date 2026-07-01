@@ -1,0 +1,16 @@
+#nature_login{
+    background-image: url(nature_login.jpg);
+    opacity: 1;
+    background-size: 700px 800px;  
+    color:rgba(252, 251, 246); 
+    width:500px;
+}
+#nature_login h1{
+     font-size: 30px;
+     /* margin-top:150px;
+     margin-left: 150px; */
+}
+#nature_login p{
+    font-size: 25px;
+    /* margin-left: 150px; */
+}

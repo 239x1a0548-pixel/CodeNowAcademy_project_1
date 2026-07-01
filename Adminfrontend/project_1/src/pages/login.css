@@ -1,0 +1,33 @@
+
+
+
+
+.card {
+  transition: all 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.form-control {
+  border-radius: 10px;
+}
+
+.form-control:focus {
+  border-color:rgb(25, 25, 26);
+  box-shadow: 0 0 10px rgba(13, 110, 253, 0.2);
+}
+
+.btn-primary {
+  background: linear-gradient(135deg, #0d6efd, #4f8cff);
+  border: none;
+}
+
+.btn-primary:hover {
+  background: linear-gradient(135deg, #0b5ed7, #3f7fff);
+}
+
+.input-group-text {
+  border-radius: 10px 0 0 10px;
+}
